@@ -44,6 +44,9 @@ imports:
     fips-curl:
         git: https://github.com/gscept/fips-curl.git
         cond: "FIPS_WINDOWS"
+    fips-recast:
+        git: https://github.com/gscept/fips-recast.git
+        group: recastnavigation
 
 exports:
     header-dirs :

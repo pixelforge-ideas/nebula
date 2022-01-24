@@ -13,6 +13,7 @@
 #include "physics/actorcontext.h"
 #include "physicsinterface.h"
 #include "flat/physics/material.h"
+#include "flat/physics/collisions.h"
 
 namespace Physics
 {
@@ -30,7 +31,7 @@ struct ActorInfo
     Util::Array<Util::String> colliders;
     SizeT instanceCount;
     CollisionFeedback feedbackFlag;
-    uint16_t collisionGroup;
+    uint8_t collisionId;
 };
 
     
